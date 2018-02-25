@@ -68,7 +68,6 @@ class PropertyController extends Controller
         return response()->json([
             'data' => $property
         ], 200);
-        // return new PropertyResource($property);
     }
 
     /**
