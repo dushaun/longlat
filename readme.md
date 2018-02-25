@@ -44,6 +44,7 @@ That should be it. Now you should be able to launch the website to use the featu
 ## API Interaction
 
 Here are a few details on the API created in this mini app, I would suggest using something like [Postman](https://www.getpostman.com/) to interact with it properly and easily.
+
 | Domain | Method    | URI                     | Name | Action                                          | Middleware |
 |--------|-----------|-------------------------|------|-------------------------------------------------|------------|
 |        | GET/HEAD  | api/property            |      | App\Http\Controllers\PropertyController@index   | api        |
